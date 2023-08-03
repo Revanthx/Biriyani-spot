@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image\photo.png">
+    <title>Biriyani Spot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color:orangered;
+        }
+
+        header {
+            background-color:orangered;
+            color:black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .menu-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .menu-item {
+            width: 300px;
+            margin: 10px;
+            border: 1px solid orangered;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .menu-item img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .menu-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Menu</h1>
+    </header>
+
+    <div class="menu-container">
+
+        <div class="menu-item">
+            <img src="image\hyderabadi-biryani.jpg" alt="Biryani 1">
+            <h3>hyderabadi biryani</h3>
+            <p>&#8377 300</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="image\dindigul-biryani.jpg" alt="Biryani 2">
+            <h3>dindigul biryani</h3>
+            <p>&#8377 300</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="image\lucknowi-biryani-fas-kitchen.jpg" alt="Biryani 3">
+            <h3>lucknowi biryani</h3>
+            <p>&#8377 300</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="image\memoni-biryani-mtv-india.jpg" alt="Biryani 4">
+            <h3>memoni biryani</h3>
+            <p>&#8377 300</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="image/sindhi-biryani.jpg" alt="Biryani 5">
+            <h3>sindhi biryani</h3>
+            <p>&#8377 300</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="image\malabar-biryani.jpg" alt="Biryani 5">
+            <h3>Biryani 1</h3>
+            <p>&#8377 300</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
